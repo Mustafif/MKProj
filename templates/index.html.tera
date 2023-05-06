@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>MKProjects</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+    <style>
+        body,
+        html {
+            height: 100%;
+            font-family: "Inconsolata", sans-serif;
+        }
+
+        .bgimg {
+            background-position: center;
+            background-size: cover;
+            background-image: url("/static/Banner.png");
+            min-height: 75%;
+        }
+
+        .menu {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Links (sit on top) -->
+    <div class="w3-top">
+        <div class="w3-row w3-padding w3-black">
+            <div class="w3-col s3">
+                <a href="/" class="w3-button w3-block w3-black">HOME</a>
+            </div>
+            <div class="w3-col s3">
+                <a href="/projects" class="w3-button w3-block w3-black">PROJECTS</a>
+            </div>
+            <div class="w3-col s3">
+                <a href="/resume" class="w3-button w3-block w3-black">RESUME</a>
+            </div>
+            <div class="w3-col s3">
+                <a href="/pages" class="w3-button w3-block w3-black">PAGES</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header with image -->
+    <header class="bgimg w3-display-container" id="home">
+        <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+            <span class="w3-tag">Developed By Mustafif Khan</span>
+        </div>
+        <div class="w3-display-bottomright w3-center w3-padding-large">
+            <span class="w3-text-white">Opensource Projects under MIT License</span>
+        </div>
+    </header>
+
+    <!-- Add a background color and large text to the whole page -->
+    <div class="w3-sand w3-large">
+        <div class="w3-container w3-padding-16" id="submenu">
+            <!-- Sub Menu for Content -->
+            <div class="w3-row w3-padding w3-black">
+                <div class="w3-quarter">
+                    <a href="#" class="w3-button w3-block w3-black">ABOUT</a>
+                </div>
+                <div class="w3-quarter">
+                    <a href="#about" class="w3-button w3-block w3-black">AMBITIONS</a>
+                </div>
+                <div class="w3-quarter">
+                    <a href="#where" class="w3-button w3-block w3-black">NAVIGATIONS</a>
+                </div>
+                <div class="w3-quarter">
+                    <a href="#where" class="w3-button w3-block w3-black">PORTFOLIO LANGUAGES</a>
+                </div>
+            </div>
+            <!-- End page content -->
+        </div>
+
+        <div class="w3-blue w3-large">
+            <div class="w3-container w3-center w3-padding-16">
+                <h5 class="w3-center w3-padding" id="about"><span class="w3-tag w3-wide">ABOUT MKPROJECTS</span></h5>
+                <p>
+                    MKProjects is a collection of portfolio projects written by myself, MKProjects and are licensed to
+                    be opensourced. I have
+                    been working under the github organization I run, MKProjects for over 3 years and during that time I
+                    have worked on plenty of projects (we have almost 60 repos!).
+                    In this website you can find the information on my currently maintained projects, other works such
+                    as publications and plans for the future.
+                </p>
+                <p>
+                    My interest in programming started with developing websites, and had later diverted to becoming such
+                    a big part of my life. Currently I focus on systems programming, and
+                    now mainly write backend applications, but you'll still find that website lover spirit still
+                    existing in MKProjects. I always try to write projects that solve problems stemming
+                    from my laziness and it tends to also benefit others such as developers or students.
+                </p>
+            </div>
+        </div>
+
+        <div class="w3-purple w3-large">
+            <div class="w3-container w3-padding-16">
+                <h5 class="w3-center w3-padding" id="ambitions"><span class="w3-tag w3-wide">AMBITIONS</span></h5>
+                <p class="w3-center">
+                    MKProjects will always align closely to the topics I'm interested in learning and as someone focused
+                    in the
+                    field of systems programming, it can get kind of complicated...but here is the topics I'm interested
+                    in:
+
+                </p>
+                <ul>
+                    <li>Compilers & Interpreters: </li>
+                    <ul>
+                        <li>Developing a programming language</li>
+                    </ul>
+                    <li>Operating System / Kernel Development:</li>
+                    <ul>
+                        <li>Linux Kernel or a Unix-like Microkernel development</li>
+                    </ul>
+                    <li>Text Editor Development: </li>
+                    <ul>
+                        <li>A Vim or VSCode-like editor</li>
+                    </ul>
+                    <li>Penetration Testing: </li>
+                    <ul>
+                        <li>Being able to write programs to test for vulnerabilities</li>
+                    </ul>
+                </ul>
+            </div>
+        </div>
+
+        <div class="w3-pink w3-large">
+            <div class="w3-container w3-padding-16">
+                <h5 class="w3-center w3-padding" id="navigation"><span class="w3-tag w3-wide">NAVIGATIONS</span></h5>
+                <p>This website is built to show everything I work on, and as such its important to know what each page
+                    is meant for: </p>
+                <ul>
+                    <li><strong>Projects:</strong></li>
+                    <ul>
+                        <li>Show current maintained projects</li>
+                        <li>Discuss concepts of future projects under <i>Mufi Experiments</i></li>
+                    </ul>
+                    <li><strong>Resume:</strong></li>
+                    <ul>
+                        <li>Interested in hiring me?</li>
+                        <li>Shows all skills, and experience</li>
+                    </ul>
+                    <li><strong>Pages: </strong></li>
+                    <ul>
+                        <li>Showcases all of my publications in programming</li>
+                        <li>Discusses my experience as an author</li>
+                    </ul>
+                </ul>
+            </div>
+        </div>
+
+        <div class="w3-orange w3-large">
+            <div class="w3-container w3-padding-16">
+                <h5 class="w3-center w3-padding" id="lang"><span class="w3-tag w3-wide">PORTFOLIO LANGUAGES</span></h5>
+                <div class="w3-center">
+                    <p>
+                        My focus on programming languages I'd like to use in my portfolio stems down to two branches.
+                        The first is <strong>performance</strong>
+                        and the second is <strong>safety/security</strong>. These programs are mainly for systems
+                        programming, and should be able to do low-level
+                        tasks such as memory allocation, hardware interaction and such...
+                    </p>
+                    <p>
+                        The languages currently being used in MKProjects for development are the following:
+                    </p>
+                </div>
+
+                <ul>
+                    <li>Zig: A general purpose language to build robust, optimal and reusable programs.</li>
+                    <li>Rust: A language built to deliver high performance applications with guaranteed memory/thread safety. </li>
+                    <li>C: A general purpose language to build high performance programs</li>
+                </ul>
+            </div>
+        </div>
+
+
+        <!-- Footer -->
+        <footer class="w3-center w3-light-grey w3-padding-48 w3-large">
+            <p>Powered by <a href="https://github.com/MKProj" title="MKProj.com" target="_blank" class="w3-hover-text-green">MKProjects</a></p>
+        </footer>
+
+
+</body>
+
+</html>
