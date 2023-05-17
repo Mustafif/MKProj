@@ -132,7 +132,7 @@
                         </div>
                     </div>
 
-                    <div class="w3-content w3-padding-16 w3-margin-right">
+                    <div class="w3-content w3-padding-16">
                         <!-- Page content -->
                         <h5 class="w3-center w3-padding" id="texcreate"><span class="w3-tag w3-wide">TEXCREATE</span>
                         </h5>
@@ -183,7 +183,7 @@
                         </div>
                     </div>
 
-                    <div class="w3-content w3-padding-16 w3-margin-right">
+                    <div class="w3-content w3-padding-16">
                         <!-- Page content -->
                         <h5 class="w3-center w3-padding" id="texcore"><span class="w3-tag w3-wide">TEXCORE</span></h5>
                         <p>
@@ -242,7 +242,7 @@
                         </div>
                     </div>
 
-                    <div class="w3-content w3-padding-16 w3-margin-right">
+                    <div class="w3-content w3-padding-16">
                         <!-- Page content -->
                         <h5 class="w3-center w3-padding" id="mufi"><span class="w3-tag w3-wide">MUFI EXPERIMENTS</span>
                         </h5>
