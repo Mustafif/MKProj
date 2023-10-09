@@ -1,0 +1,103 @@
+[[buttons]]
+title = "TexCreate"
+description = "A LaTeX Project Creator"
+url = "https://github.com/MKProj/texcreate"
+badges_urls = ["https://img.shields.io/github/license/MKProj/texcreate", "https://img.shields.io/crates/v/texcreate", "https://img.shields.io/crates/d/texcreate", "https://img.shields.io/github/languages/top/MKProj/texcreate"]
+
+[[buttons.badges]]
+user = "MKProj"
+repo = "texcreate"
+badge = "GHLicense"
+
+[[buttons.badges]]
+user = "MKProj"
+repo = "texcreate"
+badge = "CratesVersion"
+
+[[buttons.badges]]
+user = "MKProj"
+repo = "texcreate"
+badge = "CratesDownload"
+
+[[buttons.badges]]
+user = "MKProj"
+repo = "texcreate"
+badge = "GHTopLang"
+
+[[buttons]]
+title = "TexCore"
+description = "A LaTeX library for Rust"
+url = "https://github.com/MKProj/texcore"
+badges_urls = ["https://img.shields.io/github/license/MKProj/texcore", "https://img.shields.io/crates/v/texcore", "https://img.shields.io/crates/d/texcore", "https://img.shields.io/github/languages/top/MKProj/texcore"]
+
+[[buttons.badges]]
+user = "MKProj"
+repo = "texcore"
+badge = "GHLicense"
+
+[[buttons.badges]]
+user = "MKProj"
+repo = "texcore"
+badge = "CratesVersion"
+
+[[buttons.badges]]
+user = "MKProj"
+repo = "texcore"
+badge = "CratesDownload"
+
+[[buttons.badges]]
+user = "MKProj"
+repo = "texcore"
+badge = "GHTopLang"
+
+[[buttons]]
+title = "Moka-Web"
+description = "Official MoKa Reads Web Application"
+url = "https://github.com/Moka-Reads/moka-web"
+badges_urls = ["https://img.shields.io/github/license/Moka-Reads/moka-web", "https://img.shields.io/github/commit-activity/t/Moka-Reads/moka-web/main?label=Commits%20(main)", "https://img.shields.io/github/commit-activity/t/Moka-Reads/moka-web/beta?label=Commits%20(beta)"]
+
+[[buttons.badges]]
+user = "Moka-Reads"
+repo = "moka-web"
+badge = "GHLicense"
+
+[[buttons.badges]]
+user = "Moka-Reads"
+repo = "moka-web"
+
+[buttons.badges.badge]
+GHCommitBranch = """
+GHCommitBranch
+main"""
+
+[[buttons.badges]]
+user = "Moka-Reads"
+repo = "moka-web"
+
+[buttons.badges.badge]
+GHCommitBranch = """
+GHCommitBranch
+beta"""
+
+[[buttons]]
+title = "MKProj"
+description = "The official MKProject Web Application"
+url = "https://github.com/MKProj/mkproj"
+badges_urls = ["https://img.shields.io/github/license/MKProj/mkproj", "https://img.shields.io/github/languages/top/MKProj/mkproj", "https://img.shields.io/github/commit-activity/t/MKProj/mkproj/main?label=Commits%20(main)"]
+
+[[buttons.badges]]
+user = "MKProj"
+repo = "mkproj"
+badge = "GHLicense"
+
+[[buttons.badges]]
+user = "MKProj"
+repo = "mkproj"
+badge = "GHTopLang"
+
+[[buttons.badges]]
+user = "MKProj"
+repo = "mkproj"
+
+[buttons.badges.badge]
+GHCommitBranch = "main"
